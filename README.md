@@ -8,7 +8,7 @@ This demo shows how to quickly set up a Node.js project that connects to Vybe We
    ```bash
     git clone https://github.com/vybenetwork/websocket-demo-node.git
     
-    cd websocket-demo
+    cd websocket-demo-node
 2.	**Install dependencies**
 
     **Using npm:**
