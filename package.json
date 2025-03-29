@@ -4,5 +4,6 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "ws": "^8.18.1"
-  }
+  },
+  "type": "module"
 }
