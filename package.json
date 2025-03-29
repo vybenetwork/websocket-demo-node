@@ -1,0 +1,8 @@
+{
+  "name": "websocket-demo",
+  "packageManager": "yarn@3.6.1",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ws": "^8.18.1"
+  }
+}
