@@ -1,7 +1,7 @@
 require("dotenv").config();
 const WebSocket = require("ws"); // `npm install ws` or `yarn add ws` to install the ws package
 
-const websocketUri = process.env.WS_URL; // Subscribe to Business or Premium plan here for Websocket API access - https://alpha.vybenetwork.com/api-plans - generate API key and get websocket URI here https://alpha.vybenetwork.com/dashboard/api-management
+const websocketUri = process.env.WS_URL; // Subscribe to Business or Premium plan here for Websocket API access - hhttps://alpha.vybenetwork.com/settings/plans - generate API key and get websocket URI here https://alpha.vybenetwork.com/settings/api-management
 
 let ws;
 const enableReconnect = true; // Set to false if you don't want to reconnect automatically
@@ -13,7 +13,7 @@ function getTimestamp() {
 function connect() {
     ws = new WebSocket(websocketUri, {
         headers: {
-            "X-API-Key": process.env.API_KEY, // Subscribe to Business or Premium plan here for Websocket API access - https://alpha.vybenetwork.com/api-plans - and generate API key here https://alpha.vybenetwork.com/dashboard/api-management
+            "X-API-Key": process.env.API_KEY, // Subscribe to Business or Premium plan here for Websocket API access - https://alpha.vybenetwork.com/settings/plans - and generate API key here https://alpha.vybenetwork.com/settings/api-management
         },
     });
 
